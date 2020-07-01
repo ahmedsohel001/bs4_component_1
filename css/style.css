@@ -1,0 +1,18 @@
+.custom-size {
+	height: 80px;
+}
+.card-custom-bg {
+	background-color: #EBEDEF;
+}
+.custom-img img {
+	width: 100%;
+	height: 450px;
+}
+.custom-accordion {
+	border: 2px solid #000;
+}
+.accordion-header {
+	background-color: #ddd;
+	border-top: 1px solid #909090;
+	border-bottom: 1px solid #909090;
+}

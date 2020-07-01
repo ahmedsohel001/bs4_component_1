@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Class Project</title>
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1 class="text-danger text-center">Breadcrumb</h1>
+        <div class="row">
+            <div class="col-md-12">
+                <nav ara-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="carousel.html">Carousel</a></li>
+                        <li class="breadcrumb-item active"  aria-currnet="page">Collapse</li>
+                        <li class="breadcrumb-item"><a href="form.html">Form</a></li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1 class="text-center text-danger">Collapse</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <button class="btn btn-lg btn-primary d-block mx-auto" data-target="#collapse1" data-toggle="collapse">Button Tag</button>
+                <p id="collapse1" class="collapse text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo fugiat magnam tempore dicta amet itaque, ratione inventore minima fuga at atque provident eligendi voluptates tempora cumque officia facere nobis velit ipsam voluptas labore nesciunt accusamus nam in! In optio tenetur esse natus beatae accusamus repellat error. Necessitatibus, ex dolor quas.</p>
+            </div>
+            <div class="col-md-6">
+                <a href="#collapse2" class="btn btn-lg btn-info d-block mx-auto" data-toggle="collapse" role="button">Anchor Tag</a>
+                <p id="collapse2" class="collapse text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam exercitationem quos dolorum nihil, reiciendis quas tempore autem provident ut mollitia ullam fugiat amet, veniam enim accusamus cum, iure laboriosam eum eaque ducimus consequuntur ipsam a sapiente facere. Iste quisquam quaerat, perferendis numquam inventore aliquid tempore a sit quis nam officiis molestiae minus ducimus eos at beatae expedita, accusamus voluptates ipsam. Suscipit voluptate provident quis iusto corporis, assumenda hic odit nobis doloremque, repellendus saepe cum, praesentium, velit sed fugit minima delectus dolores. Animi voluptas, ullam nihil, iusto doloribus aperiam culpa fugit! Enim obcaecati dolores vel doloribus maxime placeat neque, laborum hic.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1 class="text-center text-danger">Accordion With Card Class</h1>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="accordion" id="MyAccordion">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 data-target="#accordion1" data-toggle="collapse">Accordion #1</h3>
+                        </div>
+                        <div class="collapse show" id="accordion1">
+                            <div class="card-body">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, laboriosam nulla nobis aperiam natus, cumque.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 data-target="#accordion2" data-toggle="collapse">Accordion #2</h3>
+                        </div>
+                        <div class="collapse" id="accordion2">
+                            <div class="card-body">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, laboriosam nulla nobis aperiam natus, cumque.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 data-target="#accordion3" data-toggle="collapse">Accordion #3</h3>
+                        </div>
+                        <div class="collapse" id="accordion3">
+                            <div class="card-body">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, laboriosam nulla nobis aperiam natus, cumque.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <h1 class="text-center text-danger">Accordion with custom</h1>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="accordion custom-accordion" id="accordion_2">
+                    <div class="accordion-area">
+                        <div class="accordion-header">
+                            <button class="btn btn-block" data-target="#myaccordion1" data-toggle="collapse">
+                                <h3>Accordion #1</h3>
+                            </button>
+                        </div>
+                        <div class="accordion-body">
+                            <div class="collapse" id="myaccordion1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae debitis harum quia autem accusamus saepe esse. Sint, officiis? Sunt, nostrum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, officia doloribus cum ipsum nobis harum!</div>
+                        </div>
+                    </div>
+                    <div class="accordion-area">
+                        <div class="accordion-header">
+                            <button class="btn btn-block" data-target="#myaccordion2" data-toggle="collapse">
+                                <h3>Accordion #2</h3>
+                            </button>
+                        </div>
+                        <div class="accordion-body">
+                            <div class="collapse" id="myaccordion2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae debitis harum quia autem accusamus saepe esse. Sint, officiis? Sunt, nostrum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto fugit consequuntur, labore accusantium ratione officiis.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-area">
+                        <div class="accordion-header">
+                            <button class="btn btn-block" data-target="#myaccordion3" data-toggle="collapse">
+                                <h3>Accordion #3</h3>
+                            </button>
+                        </div>
+                        <div class="accordion-body">
+                            <div class="collapse" id="myaccordion3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae debitis harum quia autem accusamus saepe esse. Sint, officiis? Sunt, nostrum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, quisquam adipisci asperiores dolorum, necessitatibus itaque.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="jumbotron">
+            <h2 class="display-2">Hello, World</h2>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt tenetur modi consectetur nihil sit maxime ad soluta voluptate esse totam.</p>
+            <hr class="my3">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, distinctio.</p>
+            <button class="btn btn-primary">Click Here</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="jumbotron jumbotron-fluid">
+            <h2 class="display-3">Hello, Bangladesh</h2>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt tenetur modi consectetur nihil sit maxime ad soluta voluptate esse totam.</p>
+            <hr class="my3">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, distinctio.</p>
+            <button class="btn btn-primary">Click Here</button>
+        </div>
+    </div>
+
+
+
+    <!--JS LINK-->
+    <script src="js/jquery3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

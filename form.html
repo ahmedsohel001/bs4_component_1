@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Class Project</title>
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="text-danger text-center">Breadcrumb</h1>
+        <div class="row">
+            <div class="col-md-12">
+                <nav ara-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="carousel.html">Carousel</a></li>
+                        <li class="breadcrumb-item"><a href="collapse.html">Collapse</a></li>
+                        <li class="breadcrumb-item active" aria-currnet="page">Form</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1 class="text-center text-danger">Form</h1>
+        <div class="row border">
+            <div class="col-md-12">
+                <h3 class="text-center">Fill-up tha form</h3>
+                <form action="#" method="get">
+                    <div class="form-group">
+                        <label for="firstname">First name:</label>
+                        <input type="text" class="form-control" placeholder="First Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="lastname">Last name:</label>
+                        <input type="text" class="form-control" placeholder="Last Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address:</label>
+                        <input type="email" class="form-control" placeholder="Enter Your Email">
+                        <small class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password:</label>
+                        <input type="password" class="form-control" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                        <label for="gender" class="form-check-label">Male:</label>
+                        <input type="radio" class="form-check-inline" name="gender" value="male">
+                    </div>
+                    <div class="form-group">
+                        <label for="gender" class="form-check-label">Female:</label>
+                        <input type="radio" class="form-check-inline" name="gender" value="female">
+                    </div>
+                    <div class="form-group">
+                        <label for="file">Attach your recent photograph:</label>
+                        <input type="file" class="form-control-file">
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="reset" class="btn btn-primary">Reset</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1 class="text-center text-danger">Form</h1>
+        <div class="row border">
+            <div class="col-md-12">
+                <h3 class="text-center">Fill-up tha form</h3>
+                <form action="#" method="get">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="firstname">First name:</label>
+                            <input type="text" class="form-control" placeholder="First Name">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="lastname">Last name:</label>
+                            <input type="text" class="form-control" placeholder="Last Name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address:</label>
+                        <input type="email" class="form-control" placeholder="Enter Your Email">
+                        <small class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password:</label>
+                        <input type="password" class="form-control" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                        <label for="gender" class="form-check-label">Male:</label>
+                        <input type="radio" class="form-check-inline" name="gender" value="male">
+                    </div>
+                    <div class="form-group">
+                        <label for="gender" class="form-check-label">Female:</label>
+                        <input type="radio" class="form-check-inline" name="gender" value="female">
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Address-1:</label>
+                        <input type="text" class="form-control" placeholder="Address">
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Address-2:</label>
+                        <input type="text" class="form-control" placeholder="Address">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="city">City</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="state">State</label>
+                            <select name="state" id="state" class="form-control">
+                                <option value="choose" selected>Choose..</option>
+                                <option value="choose">Narayanganj</option>
+                                <option value="choose">Dhaka</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-2">
+                            <label for="zip">Zip Code</label>
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="file">Attach your recent photograph:</label>
+                        <input type="file" class="form-control-file">
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="reset" class="btn btn-primary">Reset</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    
+    <!--JS LINK-->
+    <script src="js/jquery3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
